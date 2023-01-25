@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+main {
+  margin: 8%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-txt {
+  width: 40%;
+}
+
+.header-txt h1 {
+  font-size: 44px;
+  width: 80%;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.header-txt p {
+  font-size: 15px;
+  margin-top: 8%;
+  color: hsl(303, 10%, 53%);
+}
+
+.header section {
+  width: 40%;
+}
+
+.star-div {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(300, 24%, 96%);
+  padding: 18px;
+  gap: 10%;
+  margin-bottom: 6%;
+  width: 93%;
+}
+
+.star-div p{
+  color: hsl(300, 43%, 22%);
+}
+
+.first {
+  margin-left: -120px;
+}
+
+.second {
+  margin-left: -60px;
+}
+
+#box {
+  margin-top: 30px;
+}
+
+#box2 {
+  margin-top: 60px;
+}
+
+.sub-main {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  margin-top: 10%;
+}
+
+
+
+.card {
+  padding: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(300, 43%, 22%);
+  border: none;
+  border-radius: 16px;
+
+}
+
+.submain-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+.submain-div img {
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.sub-main article p {
+  font-size: 12px;
+}
+
+.buyer-details {
+  margin-bottom: 6%;
+}
+
+.pink-txt {
+  color: hsl(333, 80%, 67%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+  }
+
+  .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-ar;
+  text-align: center;
+  align-items: center;
+}
+
+.header-txt {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header-txt h1 {
+  font-size: 32px;
+  width: 100%;
+}
+
+.header-txt p {
+  font-weight: 400;
+  margin-top: 4%;
+  font-size: 12px;
+}
+
+.header section {
+  width: 100%;
+}
+
+.star-div {
+  flex-direction: column;
+  width: 100%;
+}
+
+.star-div p {
+  margin-top: 3%;
+}
+
+.first {
+  margin-left: 0px;
+}
+
+.second {
+  margin-left: 0px;
+}
+
+#box {
+  margin-top: 0px;
+}
+
+#box2 {
+  margin-top: 0px;
+}
+
+.sub-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10%;
+}
+
+}
+
+
